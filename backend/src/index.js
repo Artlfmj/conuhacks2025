@@ -3,6 +3,7 @@ const constant = require("./config/constant");
 const { Logger, LogLevel } = require("./Logger");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
+const morgan = require("morgan");
 const route = require("./routes/index");
 
 mongoose.connect("mongodb://localhost:27017/gamehive")
@@ -12,6 +13,7 @@ const logger = new Logger({colors: true, level: LogLevel.INFO, prefix: "API", ti
 const app = express();
 
 app.use(bodyParser.json())
+app.use(morgan('dev'))
 
 app.use(route)
 
