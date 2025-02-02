@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Fun</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        #cookie {
+            width: 100px;
+            cursor: pointer;
+        }
+        .spin {
+            animation: spin 0.5s ease-in-out;
+        }
+        @keyframes spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <h1>Amusons-nous !</h1>
+    <p>Score : <span id="score">0</span></p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Anonymous_emblem.svg/1200px-Anonymous_emblem.svg.png" id="cookie" alt="Cookie">
+    <br><br>
+    <button onclick="playNoise()">Wake me up !</button>
+    
+    <section id="motivation">
+        <h2>Pourquoi rester motivé pendant un hackathon ?</h2>
+        <p>Participer à un hackathon peut être épuisant, mais voici plusieurs raisons de rester motivé :</p>
+        <ul>
+            <li><strong>Apprentissage :</strong> Chaque hackathon est une occasion d'apprendre de nouvelles compétences.</li>
+            <li><strong>Collaboration :</strong> Travailler avec d'autres peut mener à des idées innovantes.</li>
+            <li><strong>Networking :</strong> Rencontrer des personnes partageant les mêmes idées peut ouvrir des portes.</li>
+            <li><strong>Créativité :</strong> Les hackathons encouragent la pensée créative et l'innovation.</li>
+            <li><strong>Récompenses :</strong> De nombreux hackathons offrent des prix intéressants.</li>
+        </ul>
+        <p>Restez motivé et rappelez-vous que chaque minute compte !</p>
+    </section>
+
+    <section id="fun-games">
+        <h2>Jeux amusants pour faire une pause !</h2>
+        <button onclick="startGame()">Jouer à un jeu rapide</button>
+        <div id="game" style="display:none;">
+            <p>Devinez un nombre entre 1 et 10 :</p>
+            <input type="number" id="guess" min="1" max="10">
+            <button onclick="checkGuess()">Soumettre</button>
+            <p id="gameResult"></p>
+        </div>
+    </section>
+
+    <script>
+        let score = 0;
+        const cookie = document.getElementById("cookie");
+        const scoreDisplay = document.getElementById("score");
+
+        cookie.addEventListener("click", () => {
+            score++;
+            scoreDisplay.textContent = score;
+            cookie.classList.add("spin");
+            setTimeout(() => cookie.classList.remove("spin"), 500);
+        });
+
+        function playNoise() {
+            // Wait a random time between 0 and 3 seconds
+            setTimeout(() => {
+                const noises = [
+                    "https://www.myinstants.com/media/sounds/vine-boom.mp3",
+                    "https://www.myinstants.com/media/sounds/punch-gaming-sound-effect-hd_RzlG1GE.mp3",
+                    "https://www.myinstants.com/media/sounds/aaaaaaaa-online-audio-converter_r9waVUO.mp3",
+                    "https://www.myinstants.com/media/sounds/fart-meme-sound.mp3"
+                ];
+                const sound = new Audio(noises[Math.floor(Math.random() * noises.length)]);
+                sound.play();
+            }, Math.random() * 3000);
+        }
+
+        function startGame() {
+            document.getElementById("game").style.display = "block";
+            const randomNumber = Math.floor(Math.random() * 10) + 1;
+            window.currentNumber = randomNumber; // Store the random number for checking
+        }
+
+        function checkGuess() {
+            const userGuess = parseInt(document.getElementById("guess").value);
+            const resultDisplay = document.getElementById("gameResult");
+            if (userGuess === window.currentNumber) {
+                resultDisplay.textContent = "Bravo ! Vous avez deviné le bon nombre !";
+            } else {
+                resultDisplay.textContent = "Désolé, le bon nombre était " + window.currentNumber + ". Essayez encore !";
+            }
+        }
+    </script>
+
+    <footer>
+        <p>Ce contenu a été créé parce que j'ai abandonné.</p>
+    </footer>
+</body>
+</html>

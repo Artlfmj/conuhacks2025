@@ -1,0 +1,502 @@
+.home-page-child {
+    position: absolute;
+    top: 166px;
+    left: 12px;
+    border-radius: 30px;
+    background-color: #292a2d;
+    width: 366px;
+    height: 36px;
+    opacity: 0.5;
+}
+.rpg {
+    position: absolute;
+    top: 169px;
+    left: 23px;
+    font-family: 'Jockey One';
+    white-space: pre-wrap;
+    display: inline-block;
+    width: 316px;
+    height: 29px;
+}
+.home-page-item {
+    position: absolute;
+    top: 459px;
+    left: 12px;
+    border-radius: 30px;
+    background-color: #3a3a3f;
+    width: 366px;
+    height: 36px;
+    opacity: 0.5;
+}
+.horror {
+    position: absolute;
+    top: 463px;
+    left: 28px;
+    font-family: 'Jockey One';
+    white-space: pre-wrap;
+    display: inline-block;
+    width: 316px;
+    height: 29px;
+}
+.home-page-inner {
+    position: absolute;
+    top: 1039px;
+    left: 12px;
+    border-radius: 30px;
+    background-color: #3a3a3f;
+    width: 366px;
+    height: 36px;
+    opacity: 0.5;
+}
+.horror1 {
+    position: absolute;
+    top: 1043px;
+    left: 28px;
+    font-family: 'Jockey One';
+    white-space: pre-wrap;
+    display: inline-block;
+    width: 316px;
+    height: 29px;
+}
+.rectangle-div {
+    position: absolute;
+    top: 749px;
+    left: 12px;
+    border-radius: 30px;
+    background-color: #3a3a3f;
+    width: 366px;
+    height: 36px;
+    opacity: 0.5;
+}
+.horror2 {
+    position: absolute;
+    top: 753px;
+    left: 28px;
+    font-family: 'Jockey One';
+    white-space: pre-wrap;
+    display: inline-block;
+    width: 316px;
+    height: 29px;
+}
+.home-page-child1 {
+    position: absolute;
+    top: 1329px;
+    left: 3px;
+    border-radius: 30px;
+    background-color: #3a3a3f;
+    width: 366px;
+    height: 36px;
+    opacity: 0.5;
+}
+.horror3 {
+    position: absolute;
+    top: 1333px;
+    left: 19px;
+    font-family: 'Jockey One';
+    white-space: pre-wrap;
+    display: inline-block;
+    width: 316px;
+    height: 29px;
+}
+.horsizontal-1-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(217, 217, 217, 0);
+    width: 316px;
+    height: 210px;
+}
+.group-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 316px;
+    height: 151px;
+}
+.group-item {
+    position: absolute;
+    top: 151px;
+    left: 0px;
+    border-radius: 20px;
+    background-color: #292a2d;
+    width: 316px;
+    height: 55px;
+    opacity: 0.5;
+}
+.ss-88ddec97bc688866e9f721bfec7-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 316px;
+    height: 151px;
+    object-fit: cover;
+}
+.rectangle-parent {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 316px;
+    height: 206px;
+    cursor: pointer;
+}
+.goat-simulator {
+    position: absolute;
+    top: 164px;
+    left: 9px;
+    display: inline-block;
+    width: 316px;
+    height: 29px;
+}
+.star-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 9px;
+    background-color: #535353;
+    width: 104px;
+    height: 30px;
+}
+.star-item {
+    position: absolute;
+    top: 3px;
+    left: 75px;
+    width: 25px;
+    height: 25px;
+}
+.div {
+    position: absolute;
+    top: 2px;
+    left: 29px;
+    display: inline-block;
+    width: 61px;
+    height: 26px;
+}
+.star {
+    position: absolute;
+    top: 162px;
+    left: 190px;
+    width: 104px;
+    height: 30px;
+}
+.vector-parent {
+    position: absolute;
+    top: 3px;
+    left: 0px;
+    width: 325px;
+    height: 206px;
+}
+.rectangle-group {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 316px;
+    height: 206px;
+}
+.star1 {
+    position: absolute;
+    top: 164px;
+    left: 190px;
+    width: 104px;
+    height: 30px;
+}
+.vector-group {
+    position: absolute;
+    top: 0px;
+    left: 353px;
+    width: 325px;
+    height: 206px;
+}
+.vector-container {
+    position: absolute;
+    top: 0px;
+    left: 708px;
+    width: 325px;
+    height: 206px;
+}
+.vector-parent1 {
+    position: absolute;
+    top: 0px;
+    left: 1063px;
+    width: 325px;
+    height: 206px;
+}
+.vector-parent2 {
+    position: absolute;
+    top: 0px;
+    left: 1418px;
+    width: 325px;
+    height: 206px;
+}
+.slideshow {
+    position: absolute;
+    top: -3px;
+    left: 0px;
+    width: 1743px;
+    height: 209px;
+    cursor: pointer;
+}
+.arrow1l-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 55px;
+    height: 55px;
+    object-fit: cover;
+    opacity: 0.7;
+}
+.arrow1r-icon {
+    position: absolute;
+    top: 0px;
+    left: 353px;
+    width: 55px;
+    height: 55px;
+    object-fit: cover;
+    opacity: 0.7;
+}
+.arrows1 {
+    position: absolute;
+    top: 48px;
+    left: -46px;
+    width: 408px;
+    height: 55px;
+}
+.horsizontal-1 {
+    position: absolute;
+    top: 219px;
+    left: 37px;
+    width: 316px;
+    height: 210px;
+    overflow-x: auto;
+}
+.group-child15 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0px 4px 15.9px 11px rgba(30, 30, 30, 0.99) inset;
+    background-color: #1e1e1e;
+    width: 390px;
+    height: 116px;
+}
+.gamehive {
+    position: absolute;
+    top: 49px;
+    left: 99px;
+    display: inline-block;
+    width: 191px;
+    height: 40px;
+    text-shadow: 1px 0 0 #fff, 0 1px 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
+}
+.group-child16 {
+    position: absolute;
+    top: 116px;
+    left: 0px;
+    background-color: #424242;
+    width: 390px;
+    height: 2.5px;
+}
+.rectangle-parent6 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 390px;
+    height: 116px;
+    font-size: 40px;
+}
+.vector-parent7 {
+    position: absolute;
+    top: 6px;
+    left: 0px;
+    width: 325px;
+    height: 206px;
+}
+.slideshow1 {
+    position: absolute;
+    top: 0px;
+    left: 1px;
+    width: 1743px;
+    height: 212px;
+    cursor: pointer;
+}
+.arrows-2 {
+    position: absolute;
+    top: 65px;
+    left: -45px;
+    width: 408px;
+    height: 55px;
+}
+.horizontal-2 {
+    position: absolute;
+    top: 506px;
+    left: 36px;
+    width: 316px;
+    height: 210px;
+    overflow-x: auto;
+    cursor: pointer;
+}
+.frame-3 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(217, 217, 217, 0);
+    width: 332px;
+    height: 199px;
+}
+.slideshow2 {
+    position: absolute;
+    top: -7px;
+    left: 0px;
+    width: 1743px;
+    height: 212px;
+}
+.arrows-3 {
+    position: absolute;
+    top: 58px;
+    left: -46px;
+    width: 408px;
+    height: 55px;
+}
+.horizontal-3 {
+    position: absolute;
+    top: 803px;
+    left: 37px;
+    width: 332px;
+    height: 199px;
+    overflow-x: auto;
+}
+.horizontal-4-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(217, 217, 217, 0);
+    width: 326px;
+    height: 208px;
+}
+.group-parent {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1743px;
+    height: 212px;
+}
+.arrows-4 {
+    position: absolute;
+    top: 65px;
+    left: -46px;
+    width: 408px;
+    height: 55px;
+}
+.horizontal-4 {
+    position: absolute;
+    top: 1086px;
+    left: 37px;
+    width: 326px;
+    height: 208px;
+    overflow-x: auto;
+}
+.horizontal-5-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(217, 217, 217, 0);
+    width: 355px;
+    height: 339px;
+}
+.vector-parent22 {
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    width: 325px;
+    height: 206px;
+}
+.group-container {
+    position: absolute;
+    top: 3px;
+    left: 2px;
+    width: 1743px;
+    height: 216px;
+}
+.arrows-5 {
+    position: absolute;
+    top: 68px;
+    left: -44px;
+    width: 408px;
+    height: 55px;
+}
+.horizontal-5 {
+    position: absolute;
+    top: 1373px;
+    left: 35px;
+    width: 355px;
+    height: 339px;
+    overflow-x: auto;
+}
+.bottom-header-child {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    border-radius: 30px;
+    background-color: #353535;
+}
+.icon {
+    position: absolute;
+    height: 72.46%;
+    width: 12.82%;
+    top: 14.49%;
+    right: 75.13%;
+    bottom: 13.04%;
+    left: 12.05%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+}
+.search-icon {
+    position: absolute;
+    height: 52.17%;
+    width: 9.23%;
+    top: 24.64%;
+    right: 45.38%;
+    bottom: 23.19%;
+    left: 45.38%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    cursor: pointer;
+}
+.account-circle-24dp-e8eaed-fil-icon {
+    position: absolute;
+    height: 52.17%;
+    width: 9.23%;
+    top: 24.64%;
+    right: 11.28%;
+    bottom: 23.19%;
+    left: 79.49%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+.bottom-header {
+    position: absolute;
+    top: 775px;
+    left: 0px;
+    width: 390px;
+    height: 69px;
+}
+.home-page {
+    width: 100%;
+    position: relative;
+    background: linear-gradient(180deg, #403d56 41.5%, #2b293d 79%);
+    height: 844px;
+    overflow-y: auto;
+    text-align: left;
+    font-size: 20px;
+    color: #fff;
+    font-family: Inder;
+}
+

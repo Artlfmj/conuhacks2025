@@ -6,7 +6,7 @@ const mongoose = require("mongoose");
 const morgan = require("morgan");
 const route = require("./routes/index");
 
-mongoose.connect("mongodb+srv://ConU:ConU@artlfmj.ju5tw.mongodb.net/")
+mongoose.connect("mongodb+srv://ConU:CUHacks@artlfmj.ju5tw.mongodb.net/")
 
 const logger = new Logger({colors: true, level: LogLevel.INFO, prefix: "API", timestamp: true})
 
